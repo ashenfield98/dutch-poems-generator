@@ -15,19 +15,23 @@
       </header>
 
       <main>
-        <form id="poem-generator-form">
-          <input
-            type="text"
-            placeholder="Enter the topic"
-            autofocus
-            required
-            autocomplete="off"
-            class="prompt"
-            id="prompt"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="poem" id="poem"></div>
+        <div class="poem-container">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the topic"
+              autofocus
+              required
+              autocomplete="off"
+              class="prompt"
+              id="prompt"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+
+          <div class="poem-example">i.e Flowers, Amsterdam, Cheese</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
 
       <footer>
